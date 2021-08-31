@@ -1,80 +1,256 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<!doctype html>
+<html lang="en">
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-## About Laravel
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="https://localhost/rhafi-personal-web/public/images/logo.png" />
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="https://localhost/rhafi-personal-web/public/vendor/lightbox/dist/ekko-lightbox.css">
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+    <!-- Main CSS -->
+    <!-- Fontawesome --> 
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link type="text/css" rel="stylesheet" href="https://localhost/rhafi-personal-web/public/css/app.css">
+    <!-- CUSTOM -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications. 
+    <!-- AniCollection.css library -->
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
 
-## Learning Laravel
+    <title>Rhafi Personal Web</title>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+    <!-- <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script> -->
+</head>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<body id="page-top" style="font-family: 'Montserrat', sans-serif;">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white"  data-anijs="if: scroll, on: window, do: zoomIn animated, before: scrollReveal">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="https://localhost/rhafi-personal-web/public/images/logo-navbar.png" alt=""
+                    style="width: 150px; height:70px ;"></a>
 
-## Laravel Sponsors
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#page-top">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#works">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#section3">Skills</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+    
+<header class="masthead"  src="https://localhost/rhafi-personal-web/public/images/background.png" data-anijs="if: scroll, on: window, do: zoomIn animated, before: scrollReveal">
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <img src="https://localhost/rhafi-personal-web/public/images/foto_header.jpg" class="card-img-top img-thumbnail" alt="...">
+                </div>
+                <div class="col-4 align-middle">
+                    <h1 class="display-4 mb-5">About Me</h1>
+                    <p class="lead">Hi, my name is Rhafi i am Web Developer and also like to design as my hobby.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Page Content -->
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+<!-- Works -->
+<section class="container" id="works" data-anijs="if: scroll, on: window, do: zoomIn animated, before: scrollReveal">
+    <h1 class="text-center mt-5">Works</h1>
+    <hr class="w-25">
+    <div class="row">
+    <div class="card-columns">
+        <div class="card">
+            <img src="https://localhost/rhafi-personal-web/public/images/reachtoforgive.png" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <h3 class="card-title"><a href="https://reachtoforgive.com/" class="btn btn-lg btn-outline-primary">Website Reach To Forgive</a></h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://localhost/rhafi-personal-web/public/images/t-shirt.png" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <h3 class="card-title"><a href="#" class="btn btn-lg btn-outline-primary">Design T-Shirt</a></h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://localhost/rhafi-personal-web/public/images/website-penggajian.png" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <h3 class="card-title"><a href="#" class="btn btn-lg btn-outline-primary">Website Penggajian Laboratorium Psikologi</a></h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://localhost/rhafi-personal-web/public/images/web-psi.png" class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <h3 class="card-title"><a href="#" class="btn btn-lg btn-outline-primary">Website PSI</a></h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.Works -->
 
-## Contributing
+<!-- SKILLS -->
+<section class="container mb-5" id="skills" data-anijs="if: scroll, on: window, do: zoomIn animated, before: scrollReveal">
+    <h1 id="section3" class="text-center mt-5">SKILLS</h1>
+    <hr class="w-25">
+    <!-- CIRCLE 1 -->
+    <div class="container-custom">
+        <h3 class="text-center">PHP NATIVE</h3>
+        <div class="gauge-container">
+            <svg class="gauge" viewBox="0 0 150 150">
+            <circle class="rail" r="67" cx="75" cy="75"></circle>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+            <circle class="progress" r="67" data-target="90" cx="75" cy="75"></circle>
+            </svg>
 
-## Code of Conduct
+            <span class="center percentage">
+                <span class="value">0</span>
+                <span class="percentSymbol">%</span>
+            </span>
+        </div>
+    </div>
+    <!-- CIRCLE 2 -->
+    <div class="container-custom">
+        <h3 class="text-center">CODEIGNITER</h3>
+        <div class="gauge-container">
+            <svg class="gauge" viewBox="0 0 150 150">
+            <circle class="rail" r="67" cx="75" cy="75"></circle>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+            <circle class="progress" r="67" data-target="75" cx="75" cy="75"></circle>
+            </svg>
 
-## Security Vulnerabilities
+            <span class="center percentage">
+                <span class="value">0</span>
+                <span class="percentSymbol">%</span>
+            </span>
+        </div>
+    </div>
+    <!-- CIRCLE 3 -->
+    <div class="container-custom">
+        <h3 class="text-center">LARAVEL</h3>
+        <div class="gauge-container">
+            <svg class="gauge" viewBox="0 0 150 150">
+            <circle class="rail" r="67" cx="75" cy="75"></circle>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+            <circle class="progress" r="67" data-target="55" cx="75" cy="75"></circle>
+            </svg>
 
-## License
+            <span class="center percentage">
+                <span class="value">0</span>
+                <span class="percentSymbol">%</span>
+            </span>
+        </div>
+    </div>
+    <!-- CIRCLE 4 -->
+    <div class="container-custom">
+        <h3 class="text-center">PHOTOSHOP</h3>
+        <div class="gauge-container">
+            <svg class="gauge" viewBox="0 0 150 150">
+            <circle class="rail" r="67" cx="75" cy="75"></circle>
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# rhafi-personal-web using Laravel
+            <circle class="progress" r="67" data-target="65" cx="75" cy="75"></circle>
+            </svg>
 
+            <span class="center percentage">
+                <span class="value">0</span>
+                <span class="percentSymbol">%</span>
+            </span>
+        </div>
+    </div>
+    <!-- CIRCLE 5 -->
+    <div class="container-custom">
+        <h3 class="text-center">ILLUSTRATOR</h3>
+        <div class="gauge-container">
+            <svg class="gauge" viewBox="0 0 150 150">
+            <circle class="rail" r="67" cx="75" cy="75"></circle>
+
+            <circle class="progress" r="67" data-target="40" cx="75" cy="75"></circle>
+            </svg>
+
+            <span class="center percentage">
+                <span class="value">0</span>
+                <span class="percentSymbol">%</span>
+            </span>
+        </div>
+    </div>
+</section>
+<!--/.SECTION SKILLS-->
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark pt-4">
+        <!-- Copyright -->
+        
+        <div class="container text-light py-5">
+            <div class="row">
+            <div class="col-4 text-left">
+            <ul style="list-style-type: none;">
+                <li>
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="www.linkedin.com/in/rhafiihza" class="badge badge-primary">LinkedIn</a>
+                </li>
+                <li>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i><span class="badge badge-primary">rhafiihzaraja@gmail.com</span>
+                </li>
+            </ul>
+            </div>    
+            <div class="col-4 text-center">
+                © 2019 rhafiihza        
+            </div>
+            <div class="col-4 text-right">
+                <ul style="list-style-type: none;">
+                    <li>
+                    <a href="https://twitter.com/rhafiihza" class="badge badge-primary">Twitter</a><i class="fa fa-twitter-square" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/rhafiihza/" class="badge badge-primary">Instagram</a><i class="fa fa-instagram" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </footer>
+        <!-- Optional JavaScript -->
+        <!-- AniJS Core File -->
+        <script src="https://localhost/rhafi-personal-web/public/js/anijs-min.js"></script>
+
+        <!-- ScrollReveal Helper -->
+        <script src="https://localhost/rhafi-personal-web/public/js/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>
+        <script src=""></script>
+        
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://localhost/rhafi-personal-web/public/vendor/jquery/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://localhost/rhafi-personal-web/public/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+        <!-- Plugin JS-->
+        <script src="https://localhost/rhafi-personal-web/public/vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script src="https://localhost/rhafi-personal-web/public/vendor/lightbox/dist/ekko-lightbox.js"></script>
+    
+        <!-- Custom JS for Scrolling when Clicked -->
+        <script src="https://localhost/rhafi-personal-web/public/js/scrolling-nav.js"></script>
+        <script src="https://localhost/rhafi-personal-web/public/js/lightbox.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+        <script src="https://localhost/rhafi-personal-web/public/js/same.js"></script>
+</body>
+
+</html>
